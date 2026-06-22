@@ -21,9 +21,33 @@
 		F7A26E552FE943CF006105B6 /* DynamicFormBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F7A26E722FE94A83006105B6 /* Exceptions for "DynamicFormBuilder" folder in "DynamicFormBuilder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = C61FCF162FE28738000CB7D4 /* DynamicFormBuilder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F7A26E732FE94A83006105B6 /* Exceptions for "DynamicFormBuilder" folder in "Compile Sources" phase from "DynamicFormBuilder" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C61FCF132FE28738000CB7D4 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C61FCF192FE28738000CB7D4 /* DynamicFormBuilder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F7A26E722FE94A83006105B6 /* Exceptions for "DynamicFormBuilder" folder in "DynamicFormBuilder" target */,
+				F7A26E732FE94A83006105B6 /* Exceptions for "DynamicFormBuilder" folder in "Compile Sources" phase from "DynamicFormBuilder" target */,
+			);
 			path = DynamicFormBuilder;
 			sourceTree = "<group>";
 		};
